@@ -9,7 +9,6 @@ Living record of everything implemented in this session, what it does, and where
 | Item | Value |
 | --- | --- |
 | Display name | **01-Planner** |
-| Package ID | `com.mahmoudelfeel.dabab_planner` |
 | Launcher icon | Coral rounded-square with white **01** + accent dot. Adaptive icon uses `#E89F94` background (`android/app/src/main/res/mipmap-*/ic_launcher*.png`, `mipmap-anydpi-v26/ic_launcher*.xml`, `values/colors.xml`) |
 | Locales | English (`en`), Arabic (`ar`) — RTL-aware |
 | Platform | Flutter 3.7+, Dart, Hive local storage, Material 3 |
