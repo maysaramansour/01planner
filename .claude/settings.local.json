@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter pub *)",
+      "Bash(dart run *)",
+      "Bash(flutter analyze *)",
+      "Bash(flutter test *)",
+      "Bash(flutter devices *)",
+      "Bash(adb devices *)",
+      "Bash(flutter doctor *)",
+      "Read(//Users/ntgclarity/Library/Android/sdk/platform-tools/**)",
+      "Bash(~/Library/Android/sdk/platform-tools/adb devices *)",
+      "Bash(flutter build *)",
+      "Bash(flutter run *)",
+      "Bash(curl -sS -m 4 -w \"\\\\nHTTP %{http_code}\\\\n\" http://127.0.0.1:9999/v1/models)",
+      "Bash(curl -sS -m 4 -w \"\\\\nHTTP %{http_code}\\\\n\" http://192.168.1.66:9999/v1/models)",
+      "Bash(curl -sS -m 4 -w \"\\\\nHTTP %{http_code}\\\\n\" http://192.168.1.43:9999/v1/models)",
+      "Bash(lsof -iTCP:9999 -sTCP:LISTEN -n -P)",
+      "Bash(/usr/libexec/ApplicationFirewall/socketfilterfw --getglobalstate)",
+      "Bash(/usr/libexec/ApplicationFirewall/socketfilterfw --getblockall)",
+      "Bash(/usr/libexec/ApplicationFirewall/socketfilterfw --getstealthmode)",
+      "Bash(curl -sS -m 10 -w \"\\\\nHTTP %{http_code}\\\\n\" -X POST http://192.168.1.66:9999/v1/chat/completions -H \"Content-Type: application/json\" -d '{\"model\":\"qwen/qwen2.5-vl-7b\",\"messages\":[{\"role\":\"user\",\"content\":\"ping\"}],\"max_tokens\":4,\"temperature\":0}')",
+      "Bash(~/Library/Android/sdk/platform-tools/adb reverse *)",
+      "Bash(curl -sS -m 15 -w \"\\\\nHTTP %{http_code}\\\\n\" http://localhost:9999/api/v1/chat -H \"Content-Type: application/json\" -d '{\"model\":\"qwen/qwen2.5-vl-7b\",\"system_prompt\":\"You answer only in rhymes.\",\"input\":\"What is your favorite color?\"}')",
+      "Bash(curl -sS -m 10 -w \"\\\\nHTTP %{http_code}\\\\n\" http://localhost:9999/v1/chat/completions -H \"Content-Type: application/json\" -d '{\"model\":\"qwen/qwen2.5-vl-7b\",\"messages\":[{\"role\":\"user\",\"content\":\"ping\"}],\"max_tokens\":4,\"temperature\":0}')",
+      "Bash(curl -sS -m 4 -w \"\\\\nHTTP %{http_code}\\\\n\" http://192.168.117.131:9999/v1/models)",
+      "Bash(~/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell monkey -p com.mahmoudelfeel.dabab_planner -c android.intent.category.LAUNCHER 1)",
+      "Bash(flutter clean *)",
+      "Bash(git add *)"
+    ]
+  }
+}
