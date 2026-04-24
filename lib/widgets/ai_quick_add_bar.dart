@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:dabab_planner/l10n/app_localizations.dart';
+import 'package:one_planner/l10n/app_localizations.dart';
 import 'package:uuid/uuid.dart';
 
 import '../models/task.dart';

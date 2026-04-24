@@ -1,14 +1,14 @@
 import 'dart:io';
 
-import 'package:dabab_planner/models/event.dart';
-import 'package:dabab_planner/models/goal.dart';
-import 'package:dabab_planner/models/habit.dart';
-import 'package:dabab_planner/models/habit_completion.dart';
-import 'package:dabab_planner/models/task.dart';
-import 'package:dabab_planner/services/event_service.dart';
-import 'package:dabab_planner/services/goal_service.dart';
-import 'package:dabab_planner/services/habit_service.dart';
-import 'package:dabab_planner/services/task_service.dart';
+import 'package:one_planner/models/event.dart';
+import 'package:one_planner/models/goal.dart';
+import 'package:one_planner/models/habit.dart';
+import 'package:one_planner/models/habit_completion.dart';
+import 'package:one_planner/models/task.dart';
+import 'package:one_planner/services/event_service.dart';
+import 'package:one_planner/services/goal_service.dart';
+import 'package:one_planner/services/habit_service.dart';
+import 'package:one_planner/services/task_service.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
 
@@ -16,7 +16,7 @@ void main() {
   late Directory tempDir;
 
   setUpAll(() async {
-    tempDir = await Directory.systemTemp.createTemp('dabab_planner_test');
+    tempDir = await Directory.systemTemp.createTemp('one_planner_test');
     Hive.init(tempDir.path);
     Hive.registerAdapter(TaskAdapter());
     Hive.registerAdapter(EventAdapter());

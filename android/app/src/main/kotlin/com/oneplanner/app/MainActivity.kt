@@ -1,4 +1,4 @@
-package com.mahmoudelfeel.dabab_planner
+package com.oneplanner.app
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,5 +1,5 @@
-name: dabab_planner
-description: "Dabab Planner - bilingual local planner"
+name: one_planner
+description: "01 Planner - bilingual local planner"
 publish_to: 'none'
 version: 1.0.0+1
 

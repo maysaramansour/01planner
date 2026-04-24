@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:dabab_planner/l10n/app_localizations.dart';
+import 'package:one_planner/l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'screens/event_edit_screen.dart';
@@ -29,17 +29,17 @@ Future<void> main() async {
   await AppPrefs().init();
   await PendingPlanService().init();
   await WidgetService().init();
-  runApp(const DababApp());
+  runApp(const OnePlannerApp());
 }
 
-class DababApp extends StatefulWidget {
-  const DababApp({super.key});
+class OnePlannerApp extends StatefulWidget {
+  const OnePlannerApp({super.key});
 
   @override
-  State<DababApp> createState() => _DababAppState();
+  State<OnePlannerApp> createState() => _OnePlannerAppState();
 }
 
-class _DababAppState extends State<DababApp> with WidgetsBindingObserver {
+class _OnePlannerAppState extends State<OnePlannerApp> with WidgetsBindingObserver {
   bool? _showOnboarding;
 
   @override

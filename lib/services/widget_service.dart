@@ -12,7 +12,7 @@ class WidgetService {
   factory WidgetService() => _instance;
 
   static const _androidName = 'TodayWidgetProvider';
-  static const _appGroup = 'group.com.mahmoudelfeel.dabab_planner';
+  static const _appGroup = 'group.com.oneplanner.app';
 
   bool _wired = false;
 

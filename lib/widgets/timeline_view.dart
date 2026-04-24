@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:dabab_planner/l10n/app_localizations.dart';
+import 'package:one_planner/l10n/app_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
 import '../models/event.dart';
